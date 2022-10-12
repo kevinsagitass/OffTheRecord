@@ -2,3 +2,50 @@
   padding: 0;
   margin: 0;
 }
+
+#title {
+  font-size: xx-large;
+}
+
+#title > a {
+  text-decoration: none;
+  color: ghostwhite
+}
+
+#searchBar {
+  width: 50%;
+}
+
+#searchBox {
+  width: 45%;
+  margin: auto;
+  margin-top: 1%;
+  position: sticky;
+  top: 12%;
+  z-index: 10;
+}
+
+.my-card {
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: ghostwhite;
+}
+
+#leftDrawer {
+  background-color: ghostwhite;
+}
+
+.read-more-card {
+  color: $primary;
+}
+
+.my-menu-link {
+  color: $secondary;
+}
+
+.infiniteScrollLoading {
+  width: 100vw;
+  text-align: center;
+  margin-top: 30px;
+}

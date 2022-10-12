@@ -40,7 +40,7 @@ import { ref, defineComponent, onMounted } from "vue";
 import PostCard from "../components/PostCard.vue";
 
 export default defineComponent({
-  name: "IndexPage",
+  name: "AnimePage",
   components: { PostCard },
   setup() {
     const stateStore = useStateStore();
